@@ -1,0 +1,45 @@
+\input{Settings/preamble.tex}
+
+%%% Begin Document
+
+\begin{document}
+
+\pagestyle{fancy}
+
+\subfile{sections/frontpage} % Global pagenumbering is disabled inside here
+
+\newpage
+
+\subfile{sections/dedication}
+
+\newpage
+
+\subfile{sections/contents}
+
+\pagenumbering{arabic} % Reenable page numbering
+
+% Sections begin here
+
+\subfile{sections/section01}
+
+\newpage
+
+\subfile{sections/section02}
+
+\newpage
+
+\subfile{sections/section03}
+
+\newpage
+
+\subfile{sections/section04}
+
+\newpage
+
+\subfile{sections/conclusion}
+
+\newpage
+
+\subfile{sections/references}
+
+\end{document}
