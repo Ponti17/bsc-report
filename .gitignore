@@ -1,2 +1,3 @@
-Build/*
-!Build/main.pdf
+**\build
+*.gz
+*.pdf
